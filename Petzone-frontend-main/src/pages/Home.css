@@ -1,0 +1,12 @@
+body {
+    background-image: url(../assets/puppy-cat-green-background_863013-26544.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Home {
+ margin-top:40px;
+}
