@@ -57,6 +57,7 @@ Frontend .env
 VITE_SERVER_URL=http://localhost:5000
 
 ▶️ How to Run the Project
+
 1️⃣ Start Backend
 cd Petzone-backend-main
 npm install
@@ -70,6 +71,31 @@ npm install
 npm run dev
 Frontend runs on:
 http://localhost:5173
+
+---
+
+## 🔗 API Endpoints
+
+### Authentication
+- **POST** `/auth/register` → Register new user
+- **POST** `/auth/sigin` → User login
+
+### User & Pets
+- **GET** `/home/dashboard` → Logged-in user dashboard
+- **GET** `/home/Adopt` → View pets available for adoption
+- **POST** `/home/addpet` → Add a new pet (protected)
+
+---
+
+## ✨ Features
+
+- JWT authentication with HTTP-only cookies
+- Protected routes using middleware
+- User signup and login
+- View pets available for adoption
+- Add new pets
+- MongoDB database integration
+
 
 🔑 Features
 User signup & login
