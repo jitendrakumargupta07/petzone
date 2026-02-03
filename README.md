@@ -22,7 +22,7 @@ Link: https://petzone.vercel.app
 - JWT Authentication
 - Cookie-based authentication
 
----
+--- 
 
 ## 📁 Project Structure
 
